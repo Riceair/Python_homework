@@ -1,0 +1,6 @@
+tup = ('a','e','x','e','r','c','i','s','e')
+print(tup)
+lst = list(tup)
+lst.remove('a')
+tup = tuple(lst)
+print(tup)
